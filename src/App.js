@@ -19,7 +19,7 @@ class App extends React.Component {
 
     await axios
       .post(
-        "http://localhost:8080/email",
+        "https://crudtest.link/email",
         {
           email: this.state.email,
         },
