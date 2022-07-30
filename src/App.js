@@ -58,7 +58,7 @@ class App extends React.Component {
             type="email"
             required={true}
             className="w-2/3 rounded-md border bg-gray-50 px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500 disabled:cursor-not-allowed disabled:opacity-50"
-            placeholder="you@website.com"
+            placeholder="이메일을 입력 해주세요."
             onChange={this.onInputValChange}
           />
           {isLoading ? (
